@@ -30,11 +30,7 @@
 }
 
 .nav__link:hover {
-  border-color: #535bf2;
-}
-
-.nav__link:visited {
-  color: #ffffff;
+  color: #535bf2;
 }
 
 .nav__in-cart {
