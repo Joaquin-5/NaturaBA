@@ -4,6 +4,7 @@ import { Nav } from "./components/Nav/Nav";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
 import { CartProvider } from "./context/CartContext/CartProvider";
+import { Cart } from "./components/cart/Cart";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<ItemListContainer />} />
             <Route path="/detail/:id" element={<ItemDetailContainer />} />
-            <Route path="/cart" element={<h1>Carrito...</h1>}/>
+            <Route path="/cart" element={<Cart />} />
           </Routes>
         </CartProvider>
       </BrowserRouter>
