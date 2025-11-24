@@ -33,6 +33,10 @@
   color: #535bf2;
 }
 
+.nav__link img {
+  width: 40px;
+}
+
 .nav__in-cart {
   color: #90ee90;
   margin-left: 0.3rem;

@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import { ItemList } from "../ItemList/ItemList";
+import { useParams } from "react-router-dom";
 import "./ItemListContainer.css";
+import "../../styles/_shared-list.css";
 
 export const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
+  const { category } = useParams();
 
   useEffect(() => {
     fetch("/data/products.json")

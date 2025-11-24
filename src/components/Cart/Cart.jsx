@@ -10,23 +10,28 @@ export const Cart = () => {
     <section className="item-list-container">
       <h2>Carrito de Compras</h2>
 
-      {cart.length ? (
-        cart.map((prod) => (
-          <Item key={prod.id} {...prod}>
-            <span>Cantidad: {prod.quantity}</span>
-            <button
-              className="btn"
-              onClick={() => {
-                deleteItem(prod.id);
-              }}
-            >
-              Eliminar
-            </button>
-          </Item>
-        ))
-      ) : (
-        <p>No hay productos en el carrito</p>
-      )}
+      <div className="item-list">
+        {cart.length ? (
+          cart.map((prod) => (
+            <Item key={prod.id} {...prod}>
+              <span>Cantidad: {prod.quantity}</span>
+              {prod.quantity > 1 && (
+                <span>Subtotal: ${prod.quantity * prod.price}</span>
+              )}
+              <button
+                className="btn"
+                onClick={() => {
+                  deleteItem(prod.id);
+                }}
+              >
+                Eliminar
+              </button>
+            </Item>
+          ))
+        ) : (
+          <p>No hay productos en el carrito</p>
+        )}
+      </div>
 
       {cart.length ? (
         <div className="btn-container">
