@@ -4,7 +4,7 @@
     "name": "Cepillo de Bambú",
     "description": "Cepillo dental ecológico hecho con bambú sostenible y cerdas suaves biodegradables.",
     "price": 1200,
-    "category": "Higiene personal",
+    "category": "higiene-personal",
     "image": "/images/cepillobambu.jpg",
     "inStock": true
   },
@@ -13,7 +13,7 @@
     "name": "Bolsa Reutilizable de Algodón",
     "description": "Bolsa de algodón orgánico perfecta para compras diarias. Reemplaza el plástico de un solo uso.",
     "price": 2500,
-    "category": "Accesorios",
+    "category": "accesorios",
     "image": "/images/bolsareutilizabledealgodon.jpg",
     "inStock": true
   },
@@ -22,7 +22,7 @@
     "name": "Shampoo Sólido Natural",
     "description": "Shampoo sin sulfatos ni parabenos, con aroma a lavanda y envase compostable.",
     "price": 1800,
-    "category": "Cuidado personal",
+    "category": "cuidado-personal",
     "image": "/images/shapoosolidonatural.jpg",
     "inStock": true
   },
@@ -31,8 +31,8 @@
     "name": "Set de Cubiertos Reutilizables",
     "description": "Set de cuchillo, tenedor, cuchara y palillos hechos con bambú. Incluye estuche de tela.",
     "price": 3200,
-    "category": "Utensilios ecológicos",
-    "image": "/images/shapoosolidonatural.jpg",
+    "category": "utensilios-ecologicos",
+    "image": "/images/setdecubiertosreutilizables.jpg",
     "inStock": true
   },
   {
@@ -40,7 +40,7 @@
     "name": "Botella de Acero Inoxidable 750ml",
     "description": "Botella reutilizable, mantiene la temperatura hasta 12 horas. Libre de BPA.",
     "price": 5400,
-    "category": "Hidratación",
+    "category": "hidratacion",
     "image": "/images/botelladeaceroinoxidable.jpg",
     "inStock": true
   },
@@ -49,7 +49,7 @@
     "name": "Jabón Natural de Avena y Miel",
     "description": "Jabón artesanal con ingredientes naturales. Suave para todo tipo de piel.",
     "price": 1500,
-    "category": "Higiene personal",
+    "category": "higiene-personal",
     "image": "/images/jabondeaveanaymiel.jpg",
     "inStock": false
   },
@@ -58,7 +58,7 @@
     "name": "Vela de Cera de Soya",
     "description": "Vela 100% natural con aroma a vainilla. Envase de vidrio reutilizable.",
     "price": 2600,
-    "category": "Decoración",
+    "category": "decoracion",
     "image": "/images/veladeceradesoya.jpg",
     "inStock": true
   },
@@ -68,7 +68,7 @@
     "description": "Hecho con ingredientes biodegradables. Limpieza profunda sin dañar el medio ambiente.",
     "price": 3100,
     "category": "Limpieza del hogar",
-    "image": "images/detergenteecologico.jpg",
+    "image": "/images/detergenteecologico.jpg",
     "inStock": true
   },
   {
@@ -76,8 +76,8 @@
     "name": "Pajitas Metálicas Reutilizables",
     "description": "Pack de 4 pajitas de acero inoxidable con cepillo limpiador y funda de tela.",
     "price": 1800,
-    "category": "Utensilios ecológicos",
-    "image": "images/pajitasmetalicas.jpg",
+    "category": "utensilios-ecologicos",
+    "image": "/images/pajitasmetalicas.jpg",
     "inStock": true
   },
   {
@@ -85,8 +85,8 @@
     "name": "Desodorante Natural en Barra",
     "description": "Desodorante ecológico sin aluminio, elaborado con aceite de coco y bicarbonato.",
     "price": 2100,
-    "category": "Cuidado personal",
-    "image": "images/desodrantenaturaldebarra.jpg",
+    "category": "cuidado-personal",
+    "image": "/images/desodrantenaturaldebarra.jpg",
     "inStock": true
   }
 ]

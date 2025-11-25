@@ -10,7 +10,7 @@ export const Nav = () => {
       <ul className="nav__list">
         <li className="nav__item">
           <Link to={"/"} className="nav__link">
-            <img src="../../../public/favicon.png" />
+            <img src="../../../favicon.png" />
           </Link>
         </li>
         <li className="nav__item">

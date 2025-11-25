@@ -17,12 +17,16 @@ export const ItemListContainer = () => {
         return response.json();
       })
       .then((data) => {
-        setProducts(data);
+        if (category) {
+          setProducts(data.filter((product) => product.category === category));
+        } else {
+          setProducts(data);
+        }
       })
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [category]);
 
   return (
     <section className="item-list-container">
