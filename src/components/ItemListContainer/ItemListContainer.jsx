@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import { ItemList } from "../ItemList/ItemList";
+import { useParams } from "react-router-dom";
 import "./ItemListContainer.css";
+import "../../styles/_shared-list.css";
 
 export const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
+  const { category } = useParams();
 
   useEffect(() => {
     fetch("/data/products.json")
@@ -14,12 +17,16 @@ export const ItemListContainer = () => {
         return response.json();
       })
       .then((data) => {
-        setProducts(data);
+        if (category) {
+          setProducts(data.filter((product) => product.category === category));
+        } else {
+          setProducts(data);
+        }
       })
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [category]);
 
   return (
     <section className="item-list-container">
