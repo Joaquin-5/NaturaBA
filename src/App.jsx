@@ -3,7 +3,7 @@ import "./App.css";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
 import { CartProvider } from "./context/CartContext/CartProvider";
-import { Cart } from "./components/cart/Cart";
+import { Cart } from "./components/CartTEMP/CartTEMP";
 import { Header } from "./components/Header/Header";
 
 function App() {
