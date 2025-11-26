@@ -10,9 +10,9 @@ export const Cart = () => {
     <section className="item-list-container">
       <h2>Carrito de Compras</h2>
 
-      <div className="item-list">
-        {cart.length ? (
-          cart.map((prod) => (
+      {cart.length ? (
+        <div className="item-list">
+          {cart.map((prod) => (
             <Item key={prod.id} {...prod}>
               <span>Cantidad: {prod.quantity}</span>
               {prod.quantity > 1 && (
@@ -27,11 +27,11 @@ export const Cart = () => {
                 Eliminar
               </button>
             </Item>
-          ))
-        ) : (
-          <p>No hay productos en el carrito</p>
-        )}
-      </div>
+          ))}
+        </div>
+      ) : (
+        <p className="cart__empty-message">No hay productos en el carrito</p>
+      )}
 
       {cart.length ? (
         <div className="btn-container">
