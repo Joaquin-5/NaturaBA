@@ -18,7 +18,7 @@ export const ProductFormUI = ({
             id="productName"
             value={product.name}
             onChange={onChange}
-            autocomplete="off"
+            autoComplete="off"
           />
           {errors.name && <p className="error">{errors.name}</p>}
         </div>
@@ -30,7 +30,7 @@ export const ProductFormUI = ({
             id="productPrice"
             value={product.price}
             onChange={onChange}
-            autocomplete="off"
+            autoComplete="off"
           />
           {errors.price && <p className="error">{errors.price}</p>}
         </div>
@@ -42,7 +42,7 @@ export const ProductFormUI = ({
             id="productCategory"
             value={product.category}
             onChange={onChange}
-            autocomplete="off"
+            autoComplete="off"
           />
           {errors.category && <p className="error">{errors.category}</p>}
         </div>
@@ -53,7 +53,7 @@ export const ProductFormUI = ({
             id="productDescription"
             value={product.description}
             onChange={onChange}
-            autocomplete="off"
+            autoComplete="off"
           ></textarea>
           {errors.description && <p className="error">{errors.description}</p>}
         </div>
@@ -64,7 +64,7 @@ export const ProductFormUI = ({
             id="productImage"
             accept="image/*"
             onChange={(e) => onFileChange(e.target.files?.[0] ?? null)}
-            autocomplete="off"
+            autoComplete="off"
           />
           {errors.file && <p className="error">{errors.file}</p>}
         </div>
