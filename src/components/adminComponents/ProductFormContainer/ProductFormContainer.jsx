@@ -2,8 +2,8 @@ import { useState } from "react";
 import { createProduct } from "../../../services/products";
 import { uploadToImgbb } from "../../../services/uploadImage";
 import { validateProducts } from "../../../utils/validateProducts";
-import "./ProductFormContainer.css";
 import { ProductFormUI } from "../ProductFormUI/ProductFormUI";
+import "./ProductFormContainer.css";
 
 export const ProductFormContainer = () => {
   const [loading, setLoading] = useState();

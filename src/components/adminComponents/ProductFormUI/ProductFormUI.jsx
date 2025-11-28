@@ -11,50 +11,60 @@ export const ProductFormUI = ({
       <form className="product-form" onSubmit={onSubmit}>
         <h2>Agregar producto</h2>
         <div>
-          <label>Nombre:</label>
+          <label htmlFor="productName">Nombre:</label>
           <input
             type="text"
             name="name"
+            id="productName"
             value={product.name}
             onChange={onChange}
+            autocomplete="off"
           />
           {errors.name && <p className="error">{errors.name}</p>}
         </div>
         <div>
-          <label>Precio:</label>
+          <label htmlFor="productPrice">Precio:</label>
           <input
             type="number"
             name="price"
+            id="productPrice"
             value={product.price}
             onChange={onChange}
+            autocomplete="off"
           />
           {errors.price && <p className="error">{errors.price}</p>}
         </div>
         <div>
-          <label>Categoria:</label>
+          <label htmlFor="productCategory">Categoria:</label>
           <input
             type="text"
             name="category"
+            id="productCategory"
             value={product.category}
             onChange={onChange}
+            autocomplete="off"
           />
           {errors.category && <p className="error">{errors.category}</p>}
         </div>
         <div>
-          <label>Descripción</label>
+          <label htmlFor="productDescription">Descripción</label>
           <textarea
             name="description"
+            id="productDescription"
             value={product.description}
             onChange={onChange}
+            autocomplete="off"
           ></textarea>
           {errors.description && <p className="error">{errors.description}</p>}
         </div>
         <div>
-          <label>Imagen: </label>
+          <label htmlFor="productImage">Imagen: </label>
           <input
             type="file"
+            id="productImage"
             accept="image/*"
             onChange={(e) => onFileChange(e.target.files?.[0] ?? null)}
+            autocomplete="off"
           />
           {errors.file && <p className="error">{errors.file}</p>}
         </div>
