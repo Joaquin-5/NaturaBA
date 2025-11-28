@@ -6,6 +6,7 @@ import { CartProvider } from "./context/CartContext/CartProvider";
 import { Cart } from "./components/Cart/Cart";
 import { Header } from "./components/Header/Header";
 import { ProductFormContainer } from "./components/adminComponents/ProductFormContainer/ProductFormContainer";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/admin" element={<ProductFormContainer />} />
           </Routes>
+          <Footer />
         </CartProvider>
       </BrowserRouter>
     </>
