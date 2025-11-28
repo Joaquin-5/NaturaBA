@@ -5,7 +5,7 @@ export const Footer = () => {
 
   return (
     <footer>
-      <p>Todos los derechos reservados © {year}</p>
+      <p>NaturaBA - Todos los derechos reservados © {year}</p>
     </footer>
   );
 };
