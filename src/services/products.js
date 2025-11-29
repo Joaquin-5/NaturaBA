@@ -1,5 +1,4 @@
 const BASE_URL = "https://691146457686c0e9c20ce7fa.mockapi.io/products";
-const LOCAL_URL = "/data/products.json";
 
 export const createProduct = async (products) => {
   const response = await fetch(BASE_URL, {
@@ -19,9 +18,9 @@ export const createProduct = async (products) => {
 };
 
 export const getProducts = async (category) => {
-  let url = LOCAL_URL;
+  let url = BASE_URL;
   if (category) {
-    url = `${LOCAL_URL}?category=${category}`;
+    url = `${BASE_URL}?category=${category}`;
   }
 
   const res = await fetch(url);
@@ -34,7 +33,7 @@ export const getProducts = async (category) => {
 };
 
 export const getProductsById = async (id) => {
-  const res = await fetch(`${LOCAL_URL}/${id}`);
+  const res = await fetch(`${BASE_URL}/${id}`);
   if (!res.ok) {
     throw new Error("Error al obtener el producto");
   }

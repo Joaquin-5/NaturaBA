@@ -9,9 +9,11 @@ export const ItemDetailContainer = () => {
   const numericId = Number(id);
 
   useEffect(() => {
-    getProductsById(numericId).then((data) => setDetail(data)).catch((error) => {
-      console.log(error);
-    });
+    getProductsById(numericId)
+      .then((data) => setDetail(data))
+      .catch((error) => {
+        console.log(error);
+      });
   }, [id]);
 
   return (
