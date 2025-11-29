@@ -5,7 +5,7 @@
     "description": "Cepillo dental ecológico hecho con bambú sostenible y cerdas suaves biodegradables.",
     "price": 1200,
     "category": "higiene-personal",
-    "image": "/images/cepillobambu.jpg",
+    "imageUrl": "/images/cepillobambu.jpg",
     "inStock": true
   },
   {
@@ -14,7 +14,7 @@
     "description": "Bolsa de algodón orgánico perfecta para compras diarias. Reemplaza el plástico de un solo uso.",
     "price": 2500,
     "category": "accesorios",
-    "image": "/images/bolsareutilizabledealgodon.jpg",
+    "imageUrl": "/images/bolsareutilizabledealgodon.jpg",
     "inStock": true
   },
   {
@@ -23,7 +23,7 @@
     "description": "Shampoo sin sulfatos ni parabenos, con aroma a lavanda y envase compostable.",
     "price": 1800,
     "category": "cuidado-personal",
-    "image": "/images/shapoosolidonatural.jpg",
+    "imageUrl": "/images/shapoosolidonatural.jpg",
     "inStock": true
   },
   {
@@ -32,7 +32,7 @@
     "description": "Set de cuchillo, tenedor, cuchara y palillos hechos con bambú. Incluye estuche de tela.",
     "price": 3200,
     "category": "utensilios-ecologicos",
-    "image": "/images/setdecubiertosreutilizables.jpg",
+    "imageUrl": "/images/setdecubiertosreutilizables.jpg",
     "inStock": true
   },
   {
@@ -41,7 +41,7 @@
     "description": "Botella reutilizable, mantiene la temperatura hasta 12 horas. Libre de BPA.",
     "price": 5400,
     "category": "hidratacion",
-    "image": "/images/botelladeaceroinoxidable.jpg",
+    "imageUrl": "/images/botelladeaceroinoxidable.jpg",
     "inStock": true
   },
   {
@@ -50,7 +50,7 @@
     "description": "Jabón artesanal con ingredientes naturales. Suave para todo tipo de piel.",
     "price": 1500,
     "category": "higiene-personal",
-    "image": "/images/jabondeaveanaymiel.jpg",
+    "imageUrl": "/images/jabondeaveanaymiel.jpg",
     "inStock": false
   },
   {
@@ -59,7 +59,7 @@
     "description": "Vela 100% natural con aroma a vainilla. Envase de vidrio reutilizable.",
     "price": 2600,
     "category": "decoracion",
-    "image": "/images/veladeceradesoya.jpg",
+    "imageUrl": "/images/veladeceradesoya.jpg",
     "inStock": true
   },
   {
@@ -68,7 +68,7 @@
     "description": "Hecho con ingredientes biodegradables. Limpieza profunda sin dañar el medio ambiente.",
     "price": 3100,
     "category": "Limpieza del hogar",
-    "image": "/images/detergenteecologico.jpg",
+    "imageUrl": "/images/detergenteecologico.jpg",
     "inStock": true
   },
   {
@@ -77,7 +77,7 @@
     "description": "Pack de 4 pajitas de acero inoxidable con cepillo limpiador y funda de tela.",
     "price": 1800,
     "category": "utensilios-ecologicos",
-    "image": "/images/pajitasmetalicas.jpg",
+    "imageUrl": "/images/pajitasmetalicas.jpg",
     "inStock": true
   },
   {
@@ -86,7 +86,7 @@
     "description": "Desodorante ecológico sin aluminio, elaborado con aceite de coco y bicarbonato.",
     "price": 2100,
     "category": "cuidado-personal",
-    "image": "/images/desodrantenaturaldebarra.jpg",
+    "imageUrl": "/images/desodrantenaturaldebarra.jpg",
     "inStock": true
   }
 ]
