@@ -1,6 +1,6 @@
 /* Contenedor del formulario */
 .product-form {
-  max-width: 720px;
+  width: 720px;
   margin: 2rem auto;
   padding: 1.25rem 1.5rem;
   background: #2c2c2c; /* gris oscuro */

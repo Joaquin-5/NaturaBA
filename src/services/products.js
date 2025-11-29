@@ -2,7 +2,7 @@ const BASE_URL = "https://691146457686c0e9c20ce7fa.mockapi.io/products";
 const LOCAL_URL = "/data/products.json";
 
 export const createProduct = async (products) => {
-  const response = await fetch(LOCAL_URL, {
+  const response = await fetch(BASE_URL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

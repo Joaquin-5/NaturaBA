@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useAuthContext } from "../../context/AuthContext/useAuthContext";
 import { Navigate, useNavigate } from "react-router-dom";
+import "../adminComponents/ProductFormContainer/ProductFormContainer.css";
 
 export const Login = () => {
   const [userForm, setUserForm] = useState({ name: "", password: "" });
